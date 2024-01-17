@@ -4,19 +4,20 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    background-color: lightseagreen;
+    background-image: radial-gradient(circle, #112748, #1d274c, #2a254f, #372350, #43204f);
     color: white;
 }
 
 h1 {
     text-align: center;
-    color: darkslategrey;
+    color: #43204F;
 }
 
 .container {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 30%;
+    border-radius: 0 5%;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -42,7 +43,7 @@ input {
 .li-container {
     background-color: white;
     width: 100%;
-    color: darkslategray;
+    color: #43204F;
     margin-top: 20px;
 }
 
@@ -80,7 +81,7 @@ li p {
 
 .btn-delete:hover {
     cursor: pointer;
-    background-color: lightseagreen;
+    background-color: #112748;
 }
 
 .btn-add {
@@ -88,16 +89,16 @@ li p {
     border: none;
     color: white;
     font-family: fantasy;
-    background-color: teal;
+    background-color: green;
     font-size: 1.4rem;
     outline: none;
 }
 
 .btn-add:hover {
     cursor: pointer;
-    background-color: darkcyan;
+    background-color: #112748;
 }
 
 .empty {
-    color: darkslategrey;
+    color: #43204F;
 } 
